@@ -8,7 +8,7 @@ from utils.system_utils import switch_to_english_input  # 导入输入法切换�
 def main():
     pygame.init()
     screen = pygame.display.set_mode((800, 680))
-    pygame.display.set_caption("创新俄罗斯方块")
+    pygame.display.set_caption("tetris")
     
     # 启动时尝试切换到英文输入法
     switch_to_english_input()

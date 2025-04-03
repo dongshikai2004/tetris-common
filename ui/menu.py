@@ -60,7 +60,7 @@ class MainMenu:
         self.screen.fill((0, 0, 0))
         
         # 标题
-        title_surface = self.font_manager.render_text("创新俄罗斯方块", 72, (255, 255, 255))
+        title_surface = self.font_manager.render_text("tetris", 72, (255, 255, 255))
         title_rect = title_surface.get_rect(center=(self.width // 2, 100))
         self.screen.blit(title_surface, title_rect)
         
